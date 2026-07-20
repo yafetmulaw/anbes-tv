@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updated": "2026-07-20",
+  "providers": [
+    {
+      "id": "provider_example_1",
+      "name": "Example Provider",
+      "enabled": true,
+      "priority": 1,
+
+      "apiUrl": "https://example.com/api",
+
+      "timeoutMs": 5000,
+
+      "supportedQualities": [
+        "720p",
+        "1080p"
+      ],
+
+      "supportedFormats": [
+        "hls",
+        "mp4"
+      ],
+
+      "features": {
+        "subtitles": true,
+        "episodes": true
+      }
+    }
+  ]
+}
