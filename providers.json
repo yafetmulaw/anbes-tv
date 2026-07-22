@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-07-20",
+  "updated": "2026-07-22",
   "providers": [
     {
-      "id": "provider_example_1",
-      "name": "Example Provider",
+      "id": "torrentio",
+      "name": "Torrentio",
       "enabled": true,
       "priority": 1,
 
-      "apiUrl": "https://example.com/api",
+      "apiUrl": "https://torrentio.strem.fun",
 
       "timeoutMs": 5000,
 
@@ -19,11 +19,12 @@
 
       "supportedFormats": [
         "hls",
-        "mp4"
+        "mp4",
+        "magnet"
       ],
 
       "features": {
-        "subtitles": true,
+        "subtitles": false,
         "episodes": true
       }
     }
