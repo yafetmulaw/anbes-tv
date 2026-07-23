@@ -8,7 +8,7 @@
       "enabled": true,
       "priority": 1,
 
-      "apiUrl": "https://torrentio.strem.fun",
+      "apiUrl": "https://torrentio.strem.fun/providers=yts,eztv,rarbg,1337x,thepiratebay,kickasstorrents,torrentgalaxy,magnetdl,horriblesubs,mejortorrent,wolfmax4k,cinecalidad/manifest.json",
 
       "timeoutMs": 5000,
 
